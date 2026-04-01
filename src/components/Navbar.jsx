@@ -1,3 +1,5 @@
+//Navbar.jsx
+
 import React from 'react';
 
 const Navbar = ({ cartCount }) => {
@@ -10,7 +12,6 @@ const Navbar = ({ cartCount }) => {
         </h1>
       </div>
 
-      {/* Desktop Menu - Hidden on tablets and phones */}
       <div className="navbar-center hidden lg:flex">
         <ul className="flex items-center gap-8 xl:gap-10 text-[#64748B] text-[15px] font-semibold">
           <li className="hover:text-[#6320EE] cursor-pointer transition-colors">Products</li>
