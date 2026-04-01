@@ -1,6 +1,25 @@
 import React from 'react';
 
-
+const steps = [
+  { 
+    id: '01', 
+    title: 'Create Account', 
+    desc: 'Sign up for free in seconds. No credit card required to get started.', 
+    icon: '👤'
+  },
+  { 
+    id: '02', 
+    title: 'Choose Products', 
+    desc: 'Browse our catalog and select the tools that fit your needs.', 
+    icon: '📦'
+  },
+  { 
+    id: '03', 
+    title: 'Start Creating', 
+    desc: 'Download and start using your premium tools immediately.', 
+    icon: '🚀'
+  }
+];
 
 const StepProcess = () => {
   return (
