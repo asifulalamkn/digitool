@@ -92,4 +92,3 @@ const MainContent = ({ cart, onAdd, onRemove, onCheckout }) => {
   );
 };
 
-export default MainContent;
