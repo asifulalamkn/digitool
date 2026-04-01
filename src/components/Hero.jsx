@@ -21,7 +21,7 @@ const Hero = () => {
             <p className="text-[#64748B] text-[16px] md:text-[18px] max-w-lg leading-relaxed font-medium">
               Access premium AI tools, design assets, templates, and productivity software—all in one place. Start creating faster today.
             </p>
-            {/* Explore Products Link - Hidden on mobile to reduce clutter, keeping only buttons */}
+        
             <a href="#" className="hidden lg:block text-[#6320EE] font-bold text-[15px] hover:underline">
               Explore Products
             </a>
@@ -41,7 +41,7 @@ const Hero = () => {
           </div>
         </div>
 
-        {/* Image Side */}
+        {/* Image */}
         <div className="flex-1 flex justify-center lg:justify-end order-1 lg:order-2 w-full">
           <img 
             src={bannerImg} 
